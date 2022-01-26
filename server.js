@@ -16,7 +16,9 @@ const a = new Clarifai.App({
     client: 'pg',
     connection: {
       connectionString : process.env.DATABASE_URL,
-      ssl : true,
+      ssl: {
+        rejectUnauthorized: false
+      }
     }
   });
 
