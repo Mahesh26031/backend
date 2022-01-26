@@ -17,6 +17,7 @@
     "knex": "^1.0.1",
     "pg": "^8.7.1"
   },
+  "optionalDependencies": { "fsevents": "2.1.2" },
   "devDependencies": {
     "@types/bcrypt-nodejs": "^0.0.31",
     "nodemon": "^2.0.15"
