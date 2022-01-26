@@ -15,7 +15,7 @@ const a = new Clarifai.App({
  const db=knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'postgresql-perpendicular-40066',
       user : 'postgres',
       password : 'ROOT',
       database : 'test'
